@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HM Task - Search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="this page created for H&M Assignment. it contains search box with auto complete for results">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Mohammed Bakri">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header role="banner">
+        <h2 style="text-align: center">Users Search Page</h2>
+    </header>
+    <main>
+        <form autocomplete="off" id="searchbox">
+            <section class="autocomplete">
+                <input aria-labelledby="searchbox" id="searchtext" type="text" placeholder="write text here ...">
+            </section>
+            <!--history grid-->
+            <section id="gridTitle" style='background: rgb(230, 230, 230)'></section>
+            <table style="border-collapse: collapse; width: 100%" id="searchHistoryList"></table>
+
+        </form>
+    </main>
+</body>
+<script src="backend.js"></script>
+
+</html>
